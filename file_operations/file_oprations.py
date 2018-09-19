@@ -22,3 +22,9 @@ if __name__ == "__main__":
     except IOError:
         print("Could not read file:", 'abc.txt')
         sys.exit()
+
+
+    # for root, dirs, files in os.walk('.'):
+    #   for name in files:
+    #      if name.endswith('.jpg') or name.endswith('.JPG'):
+    #         os.remove(os.path.join(name, root))
