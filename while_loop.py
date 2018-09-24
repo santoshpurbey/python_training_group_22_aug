@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 # import time
 # a = 1
 # while a <=10:
@@ -25,8 +24,9 @@
 
 a = 0
 while True:
-    a +=1
+    a +=1 
     print(' hahaha ')
+    breakpoint()
     if a % 2 == 0:
         continue
     print('{:*^20}'.format('santosh'))
